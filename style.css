@@ -1,0 +1,150 @@
+.intro{
+    background-color: lightblue;
+    height: 90vh;
+    margin-top: 65px;
+    padding: 10%;
+    text-align: center;
+}
+.main_heading{
+    font-size: 6rem;
+}
+.heading{
+    font-size: 4rem;
+    margin: 30px auto;
+    text-align: center;
+}
+.blue{
+    color: cornflowerblue;
+}
+.red{
+    color: crimson;
+}
+#about .row h2{
+    font-size: 3rem;
+}
+#about p{
+    font-size: 1.5rem;
+    /* color: red; */
+}
+#about img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#service h3{
+    font-size: 3.8rem;
+}
+#service h2{
+    font-size: 3.5rem;
+}
+#service p{
+    font-size: 2rem;
+}
+.orange{
+    color: darkorange;
+}
+.green{
+    color: darkgreen;
+}
+.line{
+    width: 50%;
+    height: 2px;
+    background-color: #01D35A;
+}
+#results img{
+    width: 100%;
+}
+.comparison{
+    box-shadow: 0px 3px 18px #00000029;
+    margin: 5% 0;
+}
+.comparison h4{
+    font-size: 2.5rem;
+    color: darkblue;
+}
+.myCard{
+    box-shadow: 0px 3px 18px #00000029;
+    border: 1px solid #eee;  /* JUST TO LOOK COOL */
+    display: inline-block;
+    /* width: 32%; */
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 4% 2%;
+    /* padding: 0 1%; */
+    /* background-color: coral; */
+    transition: all .3s ease-in-out;
+}
+.myCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -25px, 0px)
+}
+#contact{
+    text-align: center;
+    font-size: large;
+    width: 50%;
+    padding: 5% 5%;
+    margin: auto;
+    box-shadow: 0px 3px 18px #00000029;
+}
+.fadeIn{
+    opacity: 0;
+    z-index: 0;
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+@keyframes fadeInAnimation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@media only screen and (max-width: 600px) {
+    .heading{
+        font-size: 2rem;
+        margin: 25px auto;
+    }
+    .main_heading{
+        font-size: 2.5rem;
+        margin-top: 90px;
+        margin-bottom: 30px;
+    }
+    .intro h4{
+        font-size: 1.5rem;
+        padding: 0;
+    }
+    #about p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    #about .row h2{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    #service h3{
+        font-size: 1.5rem;
+    }
+    #service p{
+        font-size: 1rem;
+    }
+    #service h2{
+        font-size: 1.3rem;
+    }
+    #results{
+        color: red;
+    }
+    .comparison h4{
+        font-size: 1rem;
+        color: darkblue;
+    }
+    #contact{
+        text-align: center;
+        font-size: large;
+        width: 100%;
+        padding: 3% 3%;
+    }
+    #getInTouch{
+        color: red;
+        font-size: 30px;
+        
+    }
+}
