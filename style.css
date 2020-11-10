@@ -27,6 +27,10 @@
     margin-top: 2%;
     padding: 0;
 }
+.steps_image img{
+    width: 100%;
+    height: auto;
+}
 .heading{
     font-size: 4rem;
     margin: 30px auto;
@@ -125,7 +129,7 @@
     .main_heading{
         width: 100%;
         font-size: 2rem;
-        margin-top: 90px;
+        margin-top: 50%;
         margin-bottom: 30px;
     }
     .intro h4{
