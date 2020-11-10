@@ -32,6 +32,7 @@
     height: auto;
 }
 #steps_image_phone img{
+    background-color: rgb(173, 216, 230);
     margin-top: 86px;
     width: 100%;
     height: auto;
@@ -146,7 +147,7 @@
     .main_heading{
         width: 100%;
         font-size: 2rem;
-        margin-top: 35%;
+        margin-top: 8%;
         margin-bottom: 30px;
         text-shadow: 1px 1px rgb(165, 164, 164);
     }
