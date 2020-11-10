@@ -1,25 +1,25 @@
-.intro{
-    background-color: lightblue;
+#intro{
+    background-color: rgb(173, 216, 230);
     background-image: url(assets/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 90vh;
+    height: 70vh;
     /* height: auto; */
-    margin-top: 65px;
+    margin-top: 15px;
     padding: 7% 10%;
     text-align: center;
 }
 .main_heading{
     margin: auto;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     text-align: center;
     width: 70%;
     font-size: 4.5rem;
     text-shadow: 2px 2px rgb(165, 164, 164);
 }
-.intro h4{
+#intro h4{
     font-size: 1.5rem;
     color: grey;
     width: 68%;
@@ -27,9 +27,15 @@
     margin-top: 2%;
     padding: 0;
 }
-.steps_image img{
+#steps_image_web img{
     width: 100%;
     height: auto;
+}
+#steps_image_phone img{
+    margin-top: 86px;
+    width: 100%;
+    height: auto;
+    display: none;
 }
 .heading{
     font-size: 4rem;
@@ -121,7 +127,18 @@
     100% {opacity: 1;}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+
+    
+    #steps_image_web{
+        display: none;
+    }
+    #steps_image_phone img{
+        display: block;
+    }
+    #intro{
+        margin-top: 0;
+    }
     .heading{
         font-size: 2rem;
         margin: 25px auto;
@@ -129,11 +146,11 @@
     .main_heading{
         width: 100%;
         font-size: 2rem;
-        margin-top: 50%;
+        margin-top: 35%;
         margin-bottom: 30px;
         text-shadow: 1px 1px rgb(165, 164, 164);
     }
-    .intro h4{
+    #intro h4{
         width: 100%;
         font-size: 1.2rem;
         padding: 0;
