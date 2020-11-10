@@ -1,12 +1,31 @@
 .intro{
     background-color: lightblue;
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
     height: 90vh;
+    /* height: auto; */
     margin-top: 65px;
-    padding: 10%;
+    padding: 7% 10%;
     text-align: center;
 }
 .main_heading{
-    font-size: 6rem;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    width: 70%;
+    font-size: 4.5rem;
+    text-shadow: 2px 2px gray;
+}
+.intro h4{
+    font-size: 1.5rem;
+    color: grey;
+    width: 68%;
+    margin: auto;
+    margin-top: 2%;
+    padding: 0;
 }
 .heading{
     font-size: 4rem;
@@ -104,12 +123,14 @@
         margin: 25px auto;
     }
     .main_heading{
-        font-size: 2.5rem;
+        width: 100%;
+        font-size: 2rem;
         margin-top: 90px;
         margin-bottom: 30px;
     }
     .intro h4{
-        font-size: 1.5rem;
+        width: 100%;
+        font-size: 1.2rem;
         padding: 0;
     }
     #about p{
